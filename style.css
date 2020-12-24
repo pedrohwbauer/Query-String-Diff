@@ -1,0 +1,28 @@
+div.gutter {
+    float: left;
+    display: block;
+    border-right: 1px solid #e8e8e8;
+    padding-right: 0.2rem;
+    margin-right: 0.5rem;
+}
+
+div.gutter pre code {
+    display: table;
+}
+
+div.compare-col pre code {
+    display: table;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+div.gutter pre code span, div.compare-col pre code span {
+    display: table-row;
+}
+
+.row-sign {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    display: inline-block;
+    border-radius: 0.25rem;
+}
